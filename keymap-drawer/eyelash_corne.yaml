@@ -2,46 +2,46 @@ layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
+  - \
+  - {t: ',', s: <}
+  - .
   - P
+  - Y
+  - $$mdi:arrow-up-bold$$
+  - F
+  - G
+  - C
+  - R
+  - L
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
   - A
   - O
   - E
-  - F
+  - U
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - H
+  - T
+  - N
+  - S
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
+  - Q
+  - J
+  - K
   - X
-  - C
-  - V
-  - B
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - N
+  - B
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - W
+  - V
+  - Z
   - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
