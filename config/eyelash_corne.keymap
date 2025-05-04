@@ -121,10 +121,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans      &kp SEMICOLON  &kp MINUS         &kp UNDERSCORE     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp DOLLAR  &kp COLON      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp GRAVE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans      &kp EQUAL      &kp SLASH         &kp TILDE          &trans     &trans
+                        &trans  &trans  &trans                                    &trans      &trans         &trans
             >;
         };
 
