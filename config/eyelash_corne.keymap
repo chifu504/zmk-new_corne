@@ -50,6 +50,15 @@
         tap-ms = <100>;
     };
 
+    macros {
+        ctrl_shift_tab: ctrl_shift_tab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_CONTROL &kp RIGHT_SHIFT &kp TAB>;
+            label = "CTRL_SHIFT_TAB";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
