@@ -61,8 +61,8 @@ layers:
   - '&ctrl_shift_tab'
   - $$mdi:arrow-up-bold$$
   - '&ctrl_tap'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&ctrl_shift_tab'
+  - '&ctrl_tap'
   - $$mdi:progress-download$$
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
