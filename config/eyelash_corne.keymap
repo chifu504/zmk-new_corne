@@ -100,9 +100,9 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans       &none            &none           &sys_reset    &bootloader   &kp N5                                         &mmv MOVE_UP                     &none            &ctrl_shift_tab  &kp UP           &ctrl_tap        &none     &none
-&bootloader  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none            &kp LEFT         &kp DOWN         &kp RIGHT        &kp HOME  &kp PG_UP
-&sys_reset   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+&trans       &none            &none           &sys_reset    &bootloader   &kp N5                                         &mmv MOVE_UP                     &none            &ctrl_shift_tab  &kp UP           &ctrl_tap        &ctrl_shift_tab  &ctrl_tap
+&bootloader  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none            &kp LEFT         &kp DOWN         &kp RIGHT        &kp HOME         &kp PG_UP
+&sys_reset   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END          &kp PG_DN
                                               &trans        &trans        &trans                                                                          &kp INS          &kp DEL          &trans
             >;
 
