@@ -72,7 +72,9 @@
                 <&macro_press>,
                 <&kp RIGHT_CONTROL>,
                 <&macro_tap>,
-                <&kp TAB>;
+                <&kp TAB>,
+                <&macro_release>,
+                <&kp RIGHT_CONTROL>;
 
             label = "CTRL_TAP";
         };
