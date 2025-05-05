@@ -58,9 +58,7 @@
                 <&macro_press>,
                 <&kp RIGHT_CONTROL &kp RIGHT_SHIFT>,
                 <&macro_tap>,
-                <&kp TAB>,
-                <&macro_release>,
-                <&kp RIGHT_SHIFT &kp RIGHT_CONTROL>;
+                <&kp TAB>;
 
             label = "CTRL_SHIFT_TAB";
         };
@@ -72,9 +70,7 @@
                 <&macro_press>,
                 <&kp RIGHT_CONTROL>,
                 <&macro_tap>,
-                <&kp TAB>,
-                <&macro_release>,
-                <&kp RIGHT_CONTROL>;
+                <&kp TAB>;
 
             label = "CTRL_TAP";
         };
