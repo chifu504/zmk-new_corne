@@ -56,14 +56,11 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp RIGHT_CONTROL>,
-                <&macro_press>,
-                <&kp RIGHT_SHIFT>,
+                <&kp RIGHT_CONTROL &kp RIGHT_SHIFT>,
                 <&macro_tap>,
+                <&kp TAB>,
                 <&macro_release>,
-                <&kp RIGHT_SHIFT>,
-                <&macro_release>,
-                <&kp RIGHT_CONTROL>;
+                <&kp RIGHT_SHIFT &kp RIGHT_CONTROL>;
 
             label = "CTRL_SHIFT_TAB";
         };
@@ -75,6 +72,7 @@
                 <&macro_press>,
                 <&kp RIGHT_CONTROL>,
                 <&macro_tap>,
+                <&kp TAB>,
                 <&macro_release>,
                 <&kp RIGHT_CONTROL>;
 
